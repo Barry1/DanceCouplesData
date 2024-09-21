@@ -11,7 +11,7 @@ git config --global filter.sqlite3tosql.clean "sqlite3 %f .dump"
 git config --global filter.sqlite3tosql.smudge "sqlite3 %f"
 ```
 
-and putting the file `.gitattributes` with the contents
+and putting the file `.gitattributes` or `$HOME/.config/git/attributes` with the contents
 
 ```.gitattributes
 *.sqlite3   filter=sqlite3tosql
