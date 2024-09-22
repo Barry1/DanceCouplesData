@@ -8189,4 +8189,10 @@ CREATE VIEW "activCouplesFederation" as
     join Federations on Clubs.FederationID=Federations.ID
     group by Verband
     order by "aktive Paare" desc;
+CREATE VIEW "DerivedCouples" as
+select HeFirstname||" "||HeSurname||" / "||SheFirstname||" "||SheSurname as String,ClubID,FromDate from BaseCouples
+union
+select HeFirstname||" "||HeSurname||" & "||SheFirstname||" "||SheSurname as String,ClubID,FromDate from BaseCouples
+union
+select HeSurname||", "||HeFirstname||" / "||SheSurname||", "||SheFirstname as String,ClubID,FromDate from BaseCouples;
 COMMIT;
