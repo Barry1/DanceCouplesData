@@ -8157,8 +8157,20 @@ INSERT INTO Couples VALUES(20688,'Müller, Ingolf / Müller, Anke',1656,'2023-04
 INSERT INTO Couples VALUES(20691,'Joppa, Dietmar / Röthling, Cornelia',1979,'2023-04-15');
 INSERT INTO Couples VALUES(20692,'Koschel, Stefan / Schmidt-Koschel, Christine',3089,'2023-04-15');
 INSERT INTO Couples VALUES(20695,'Stahnke, Jürgen / Stahnke, Patricia',338,'2023-04-15');
+CREATE TABLE IF NOT EXISTS "BaseCouples" (
+	"ID"	INTEGER NOT NULL UNIQUE,
+	"HeFirstname"	TEXT,
+	"HeSurname"	TEXT,
+	"SheFirstname"	TEXT,
+	"SheSurname"	TEXT,
+	"ClubID"	INTEGER NOT NULL,
+	"FromDate"	TEXT,
+	PRIMARY KEY("ID" AUTOINCREMENT)
+);
+INSERT INTO BaseCouples VALUES(240199,'Dr. Bastian','Ebeling','Claudia','Schmidt',404,'2024-07-06');
 DELETE FROM sqlite_sequence;
 INSERT INTO sqlite_sequence VALUES('Couples',20695);
+INSERT INTO sqlite_sequence VALUES('BaseCouples',251376);
 CREATE VIEW "Fed_Club_Count" as
     SELECT Abbrev,count(Clubs.Name)
     FROM Clubs,Federations
