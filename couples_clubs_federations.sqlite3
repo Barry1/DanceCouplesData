@@ -10476,7 +10476,7 @@ INSERT INTO BaseCouples VALUES(253662,'Dietmar','Joppa','Cornelia','Röthling',1
 INSERT INTO BaseCouples VALUES(253663,'Stefan','Koschel','Christine','Schmidt-Koschel',3089,'2023-04-15');
 INSERT INTO BaseCouples VALUES(253664,'Jürgen','Stahnke','Patricia','Stahnke',338,'2023-04-15');
 DELETE FROM sqlite_sequence;
-INSERT INTO sqlite_sequence VALUES('Couples',20969);
+INSERT INTO sqlite_sequence VALUES('Couples',21470);
 INSERT INTO sqlite_sequence VALUES('BaseCouples',253664);
 CREATE VIEW "Fed_Club_Count" as
     SELECT Abbrev,count(Clubs.Name)
@@ -10502,4 +10502,5 @@ union
 select ID,HeFirstname||" "||HeSurname||" & "||SheFirstname||" "||SheSurname as String,ClubID,FromDate from BaseCouples
 union
 select ID,HeSurname||", "||HeFirstname||" / "||SheSurname||", "||SheFirstname as String,ClubID,FromDate from BaseCouples;
+CREATE VIEW AllCouples as select * from Couples union select * from DerivedCouples order by String;
 COMMIT;
