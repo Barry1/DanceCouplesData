@@ -2089,6 +2089,9 @@ INSERT INTO Clubs VALUES(4417,'TSA d. VOILÁ Bad Nauheim','Bad Nauheim',5);
 INSERT INTO Clubs VALUES(4418,'Tanz-Sport-Club Grimmen im KH Treffpunkt','Grimmen',10);
 INSERT INTO Clubs VALUES(4419,'Linedance d. SC 1920 Huglfing','Huglfing',1);
 INSERT INTO Clubs VALUES(4420,'TSA d. KC Reseda 1967, Erfurt','Erfurt',14);
+INSERT INTO Clubs VALUES(4421,'TSA d. TV1895 Biebesheim','Biebesheim',5);
+INSERT INTO Clubs VALUES(4422,'TSA d. Borkheider SV 90','Borkheide',6);
+INSERT INTO Clubs VALUES(4423,'Idiomadanza, Regensburg','Regensburg',1);
 CREATE TABLE IF NOT EXISTS "Couples" (
     "ID" INTEGER NOT NULL UNIQUE,
     "String" TEXT NOT NULL UNIQUE,
@@ -3492,7 +3495,7 @@ INSERT INTO Couples VALUES(2457,'Rompf, Jörg / Rompf, Corinna',1115,'2023-07-01
 INSERT INTO Couples VALUES(2458,'Dettmann, Burkhard / Dettmann, Kerstin',1067,'2023-06-02');
 INSERT INTO Couples VALUES(2462,'Preuß, Uwe / Preuß, Antje',3306,'2024-05-19');
 INSERT INTO Couples VALUES(2463,'Nietzschmann, Mario / Nietzschmann, Cornelia',1665,'2023-07-01');
-INSERT INTO Couples VALUES(2464,'Felgendreher, Dieter / Felgendreher, Insa',765,'2024-06-15');
+INSERT INTO Couples VALUES(2464,'Felgendreher, Dieter / Felgendreher, Insa',765,'2025-04-12');
 INSERT INTO Couples VALUES(2465,'Respondek, Nils / Füser, Linda',353,'2023-06-02');
 INSERT INTO Couples VALUES(2468,'Andresen, Torsten / Andresen, Inga',805,'2023-06-02');
 INSERT INTO Couples VALUES(2469,'Pfingstl, Christian / Pfingstl, Nicole',944,'2024-06-16');
@@ -3628,12 +3631,12 @@ INSERT INTO Couples VALUES(2729,'Salii, Vladislav / Gulpe, Edera',353,'2023-03-1
 INSERT INTO Couples VALUES(2732,'Vogelgesang, Jens / Vogelgesang, Franziska',3633,'2023-07-02');
 INSERT INTO Couples VALUES(2733,'Ulbricht, Stefan / Ulbricht, Silva',3633,'2024-05-18');
 INSERT INTO Couples VALUES(2738,'Bernien, Holger / Hoffmann, Silke',1539,'2024-05-19');
-INSERT INTO Couples VALUES(2739,'Hübner, Siegbert / Hübner, Annette',2358,'2023-03-19');
+INSERT INTO Couples VALUES(2739,'Hübner, Siegbert / Hübner, Annette',2358,'2025-04-12');
 INSERT INTO Couples VALUES(2740,'Aschenbach, Kai / Stephan, Birgit',2358,'2023-06-30');
 INSERT INTO Couples VALUES(2741,'Sander, Holger / Sander, Ursula Christa',668,'2023-04-15');
-INSERT INTO Couples VALUES(2742,'Höpfner, Dirk / Höpfner, Brit-Kirsten',3535,'2023-03-19');
+INSERT INTO Couples VALUES(2742,'Höpfner, Dirk / Höpfner, Brit-Kirsten',3535,'2025-04-12');
 INSERT INTO Couples VALUES(2743,'Peters, Mike / Peters, Dr. Kerstin',1654,'2024-05-19');
-INSERT INTO Couples VALUES(2744,'Baethke, Jens / Baethke, Andrea',401,'2024-05-19');
+INSERT INTO Couples VALUES(2744,'Baethke, Jens / Baethke, Andrea',401,'2025-04-12');
 INSERT INTO Couples VALUES(2745,'Cameron Leland Rothländer / Elisa Pticyn',995,'2024-05-10');
 INSERT INTO Couples VALUES(2746,'Frank Kurz / Elisabeth Koch',513,'2024-05-10');
 INSERT INTO Couples VALUES(2747,'Samuel Engel / Irmelind Abraham',111,'2024-05-10');
@@ -4377,15 +4380,15 @@ INSERT INTO Couples VALUES(5002,'Baniahmad, Prof. Dr. Aria / Böhme, Dr. Yvonne'
 INSERT INTO Couples VALUES(5006,'Piekenbrock, Karsten / Bräunlich, Doris',3457,'2024-03-31');
 INSERT INTO Couples VALUES(5007,'Schmitz, Dirk / Schmitz, Inken',1054,'2023-04-08');
 INSERT INTO Couples VALUES(5008,'Mußmann, Stefan / Rudolph-Mußmann, Dagmar',912,'2023-03-18');
-INSERT INTO Couples VALUES(5009,'Beaumont, Alexander / Beaumont, Anne-Gabriele',1079,'2024-05-18');
+INSERT INTO Couples VALUES(5009,'Beaumont, Alexander / Beaumont, Anne-Gabriele',1079,'2025-04-12');
 INSERT INTO Couples VALUES(5010,'Schwake, Alfons / Schwake, Beatrix',522,'2024-05-18');
 INSERT INTO Couples VALUES(5011,'Schramm, Gunnar / Hamann, Ute',352,'2024-05-18');
 INSERT INTO Couples VALUES(5012,'Salten, Johann-Georg / Salten, Brigitte',999,'2023-07-02');
 INSERT INTO Couples VALUES(5013,'Paul, Olaf / Renno-Paul, Christl',4302,'2024-05-18');
 INSERT INTO Couples VALUES(5014,'Klatt, Hans-Jürgen / Klatt, Susanne',1988,'2024-05-18');
 INSERT INTO Couples VALUES(5015,'Sonnenwald, Richard / Becker, Regine',172,'2024-05-18');
-INSERT INTO Couples VALUES(5016,'Schwab, Helmut / Schwab, Bärbel',944,'2024-06-15');
-INSERT INTO Couples VALUES(5017,'Müller, Dieter / Müller, Elke',627,'2024-05-18');
+INSERT INTO Couples VALUES(5016,'Schwab, Helmut / Schwab, Bärbel',944,'2025-04-12');
+INSERT INTO Couples VALUES(5017,'Müller, Dieter / Müller, Elke',627,'2025-04-12');
 INSERT INTO Couples VALUES(5018,'Saumweber, Michael / Schaffert, Sabine',213,'2024-06-15');
 INSERT INTO Couples VALUES(5019,'Bormuth, Reinhard / Flügel, Karin',538,'2023-03-18');
 INSERT INTO Couples VALUES(5020,'Unger, Wolf-Dietrich / Unger, Susanne',2667,'2024-05-18');
@@ -4396,7 +4399,7 @@ INSERT INTO Couples VALUES(5024,'Pioch, Dr. Dieter / Pioch, Dr. Christiane',263,
 INSERT INTO Couples VALUES(5025,'Höft, Wolfgang / Höft, Birgit',3013,'2023-03-18');
 INSERT INTO Couples VALUES(5026,'Missere, Francesco / Missere, Karin',642,'2023-03-18');
 INSERT INTO Couples VALUES(5027,'Götze, Joachim / Götze, Gisela',376,'2024-06-16');
-INSERT INTO Couples VALUES(5028,'Bresch, Helmut / Nothdurft, Angelika',2257,'2024-06-16');
+INSERT INTO Couples VALUES(5028,'Bresch, Helmut / Nothdurft, Angelika',2257,'2025-04-12');
 INSERT INTO Couples VALUES(5029,'Thierfelder, Eckhard / Deumer, Sylvia',2724,'2024-06-15');
 INSERT INTO Couples VALUES(5030,'Quenzel, Rainer / Quenzel, Astrid',2257,'2024-06-16');
 INSERT INTO Couples VALUES(5031,'Rückl, Dieter / Rückl, Christiane',105,'2024-05-18');
@@ -4411,7 +4414,7 @@ INSERT INTO Couples VALUES(5039,'Klaas, Peter / Harbig, Annegret',944,'2023-03-1
 INSERT INTO Couples VALUES(5040,'Konopatzky, Reinhold / Konopatzky, Ulrike',1604,'2023-03-18');
 INSERT INTO Couples VALUES(5041,'Müller, Hans-Joachim / Müller, Angelika',986,'2023-03-18');
 INSERT INTO Couples VALUES(5042,'Schlögl, Roland / Schlögl, Karin',609,'2023-03-18');
-INSERT INTO Couples VALUES(5043,'Schulze, Hans-Jürgen / Schulze, Sigrid',2257,'2024-06-16');
+INSERT INTO Couples VALUES(5043,'Schulze, Hans-Jürgen / Schulze, Sigrid',2257,'2025-04-12');
 INSERT INTO Couples VALUES(5044,'Hünteler, Alfons / Hünteler, Elisabeth',3179,'2023-03-18');
 INSERT INTO Couples VALUES(5045,'Buch, Martin / Meinert, Eveline',513,'2024-05-18');
 INSERT INTO Couples VALUES(5046,'Fiebag, Reinhardt / Fiebag, Roswitha',915,'2023-03-18');
@@ -4487,7 +4490,7 @@ INSERT INTO Couples VALUES(5121,'Mäurer, Markus / Mäurer, Marion',1954,'2024-0
 INSERT INTO Couples VALUES(5122,'Böttcher, Jörg / Böttcher, Irene',262,'2023-04-15');
 INSERT INTO Couples VALUES(5124,'Vogt, Peter / Vogt, Alexandra',1848,'2024-05-19');
 INSERT INTO Couples VALUES(5125,'Heß, Uwe / Heß, Simone',3747,'2023-07-01');
-INSERT INTO Couples VALUES(5127,'Pollmann, Christoph / Pollmann, Astrid',1867,'2024-05-19');
+INSERT INTO Couples VALUES(5127,'Pollmann, Christoph / Pollmann, Astrid',1867,'2025-04-12');
 INSERT INTO Couples VALUES(5128,'Hofmann, Uwe / Hofmann, Silvia',37,'2023-07-01');
 INSERT INTO Couples VALUES(5140,'Luc Broder Albrecht / Luise Maul',3491,'2023-02-25');
 INSERT INTO Couples VALUES(5147,'Marco Wittkowski / Martina Bruhns',867,'2023-05-14');
@@ -5069,7 +5072,7 @@ INSERT INTO Couples VALUES(7111,'Huber, Philipp Elias / Vautz, Julia',68,'2023-0
 INSERT INTO Couples VALUES(7113,'Putze, Sebastian / Mahnkopp, Laura',3283,'2024-06-16');
 INSERT INTO Couples VALUES(7114,'Hebenstrick, Klaus / Schumacher, Maren',877,'2023-06-30');
 INSERT INTO Couples VALUES(7115,'Hoeft, Frank / Hoeft, Anja',1017,'2023-07-01');
-INSERT INTO Couples VALUES(7116,'Fahle, Ingo / Siegl, Christiane',625,'2023-07-01');
+INSERT INTO Couples VALUES(7116,'Fahle, Ingo / Siegl, Christiane',625,'2025-04-12');
 INSERT INTO Couples VALUES(7117,'Nositschka, Peter / Cwilag, Beata',893,'2023-07-01');
 INSERT INTO Couples VALUES(7118,'Schubert, Uwe / Schubert, Anja',1967,'2023-07-01');
 INSERT INTO Couples VALUES(7119,'Baumann, Torsten / Barth, Gudrun',837,'2023-07-01');
@@ -5077,7 +5080,7 @@ INSERT INTO Couples VALUES(7120,'Franke, Daniel / Franke, Ute',982,'2023-07-01')
 INSERT INTO Couples VALUES(7121,'Hübner, Arnold / Trömel, Annette',912,'2023-06-30');
 INSERT INTO Couples VALUES(7122,'Eifler, Stefan / Eifler-Lumme, Stefanie',1056,'2023-07-01');
 INSERT INTO Couples VALUES(7124,'Scharnewski, Eric / Scharnewski, Nicole',956,'2023-07-01');
-INSERT INTO Couples VALUES(7125,'Silbernagel, Klaus / Silbernagel, Sylvia',1125,'2023-06-30');
+INSERT INTO Couples VALUES(7125,'Silbernagel, Klaus / Silbernagel, Sylvia',1125,'2025-04-13');
 INSERT INTO Couples VALUES(7126,'Schell, Oskar / Schell, Brigitte',627,'2023-06-30');
 INSERT INTO Couples VALUES(7128,'Trossen, Andreas / Rothe, Susanne',1007,'2023-06-30');
 INSERT INTO Couples VALUES(7129,'Hartmann, Axel / Hartmann, Anja-Pia',979,'2023-06-30');
@@ -5256,7 +5259,7 @@ INSERT INTO Couples VALUES(7794,'Jost, Richard / Kraus, Helga',1769,'2024-05-18'
 INSERT INTO Couples VALUES(7795,'Stodko, Rico / Stodko, Andrea',2831,'2023-07-02');
 INSERT INTO Couples VALUES(7796,'Richter, Udo / Richter, Heidi',2261,'2024-05-18');
 INSERT INTO Couples VALUES(7797,'Odenthal, Peter / Schlimbach, Angelika',979,'2023-07-01');
-INSERT INTO Couples VALUES(7798,'Ladinski, Paul / Büker, Doris',1010,'2023-07-02');
+INSERT INTO Couples VALUES(7798,'Ladinski, Paul / Büker, Doris',1010,'2025-04-12');
 INSERT INTO Couples VALUES(7799,'Wlodawer, Robert / Wlodawer, Susanne',1967,'2023-07-01');
 INSERT INTO Couples VALUES(7877,'Kreim, Johannes / Gonzalez-Ringer, Rebecca',1155,'2023-07-02');
 INSERT INTO Couples VALUES(7893,'Maas, Michael / Kampen, Martina',353,'2023-07-01');
@@ -5287,7 +5290,7 @@ INSERT INTO Couples VALUES(8194,'Waschke, Dr. Burkhard / Thate-Waschke, Dr. Inga
 INSERT INTO Couples VALUES(8196,'Habermann, Stefan / Habermann, Christina',3557,'2023-07-02');
 INSERT INTO Couples VALUES(8201,'Schmitz, Simon / Matura, Inga Emilia',3985,'2024-04-01');
 INSERT INTO Couples VALUES(8264,'Stenzel, Patrick / Vorberg, Annika',1033,'2023-07-02');
-INSERT INTO Couples VALUES(8291,'Faust, Bernhard / Faust, Anja',1283,'2023-07-02');
+INSERT INTO Couples VALUES(8291,'Faust, Bernhard / Faust, Anja',1283,'2025-04-12');
 INSERT INTO Couples VALUES(8292,'Wilms, Helmut / Wilms, Gabriele',1395,'2023-07-02');
 INSERT INTO Couples VALUES(8293,'Lenhart, Heinrich / Lenhart, Ute',535,'2023-07-02');
 INSERT INTO Couples VALUES(8294,'Hanauer, Edgar / Hanauer, Gabriele',1054,'2023-07-02');
@@ -5521,7 +5524,7 @@ INSERT INTO Couples VALUES(9426,'Axt, Kai / Heckel, Maria',867,'2024-05-19');
 INSERT INTO Couples VALUES(9428,'Priemer, Kevin Jason / Traudt, Emily Maria',576,'2024-05-19');
 INSERT INTO Couples VALUES(9429,'Gorobets, Dmytro / Klug, Lara-Marie',3593,'2024-05-19');
 INSERT INTO Couples VALUES(9432,'Mogilevskis, Nick / Vailenko, Hanna',3593,'2024-05-19');
-INSERT INTO Couples VALUES(9438,'Bechtold, Klaus / Rojahn, Barbara',449,'2024-05-19');
+INSERT INTO Couples VALUES(9438,'Bechtold, Klaus / Rojahn, Barbara',449,'2025-04-12');
 INSERT INTO Couples VALUES(9441,'Malik, Andreas / Malik, Christine',263,'2024-05-19');
 INSERT INTO Couples VALUES(9442,'Wagner, Rigobert / Wagner, Simone',96,'2024-05-19');
 INSERT INTO Couples VALUES(9445,'Rodia, Silvano / Kunsek, Julia',124,'2024-05-19');
@@ -5553,11 +5556,11 @@ INSERT INTO Couples VALUES(9492,'Große, Frank / Große, Eveline',3732,'2024-05-
 INSERT INTO Couples VALUES(9493,'Nusser, Martin / Seiffert, Regina',2415,'2024-05-18');
 INSERT INTO Couples VALUES(9494,'Fischer, Thomas / Willenbruch, Doris',3550,'2024-06-15');
 INSERT INTO Couples VALUES(9496,'Stacker, Detlef / Stacker, Christine',316,'2024-05-18');
-INSERT INTO Couples VALUES(9498,'Brusius, Georg / Daut-Brusius, Doris',1139,'2024-05-18');
+INSERT INTO Couples VALUES(9498,'Brusius, Georg / Daut-Brusius, Doris',1139,'2025-04-12');
 INSERT INTO Couples VALUES(9499,'Jasch, Jörg / Theus, Nadja',316,'2024-06-15');
 INSERT INTO Couples VALUES(9500,'Ruh, Helmut / Ruh, Renate',1153,'2024-05-18');
 INSERT INTO Couples VALUES(9501,'Dort, Manfred / Dort, Traudel',522,'2024-05-18');
-INSERT INTO Couples VALUES(9503,'Schatte, Christian / Schatte, Cornelia',1499,'2024-06-15');
+INSERT INTO Couples VALUES(9503,'Schatte, Christian / Schatte, Cornelia',1499,'2025-04-12');
 INSERT INTO Couples VALUES(9505,'Dux, Ottmar / Elser-Dux, Astrid',690,'2024-05-18');
 INSERT INTO Couples VALUES(9506,'Maurer, Wolfgang / Maurer, Dagmar',3457,'2024-05-18');
 INSERT INTO Couples VALUES(9507,'Wieschendorf, Peter / Wieschendorf, Irin',393,'2024-06-15');
@@ -7276,7 +7279,7 @@ INSERT INTO Couples VALUES(17514,'Ostermair, Ferdinand / Ostermair, Gabriele',14
 INSERT INTO Couples VALUES(17515,'Scherer, Thomas / Scherer, Ursula',535,'2022-05-13');
 INSERT INTO Couples VALUES(17516,'Schärtel, Norbert / Salet, Monika',480,'2022-05-13');
 INSERT INTO Couples VALUES(17520,'Funk, Thorsten / Schmitt, Kerstin',1192,'2022-05-13');
-INSERT INTO Couples VALUES(17521,'Leinweber, Stefan / Leinweber, Birgit',512,'2022-05-13');
+INSERT INTO Couples VALUES(17521,'Leinweber, Stefan / Leinweber, Birgit',512,'2025-04-13');
 INSERT INTO Couples VALUES(17522,'Krause, Oliver / Pereira, Dominique',893,'2022-05-13');
 INSERT INTO Couples VALUES(17523,'Kork, Andreas / Kork, Bettina',2343,'2022-05-13');
 INSERT INTO Couples VALUES(17524,'Winter, Dr. Frank-Thomas / Winter, Sabina',2343,'2022-05-13');
@@ -7285,14 +7288,14 @@ INSERT INTO Couples VALUES(17528,'Zeng, Claus / Finkenauer, Petra',1151,'2022-05
 INSERT INTO Couples VALUES(17529,'Brembs, Uwe / Brembs, Birgit',306,'2022-05-13');
 INSERT INTO Couples VALUES(17530,'Bauer, Jürgen / Lehnart, Angelika',562,'2022-05-13');
 INSERT INTO Couples VALUES(17531,'Weber, Jörg / Weber, Ramona',522,'2022-05-13');
-INSERT INTO Couples VALUES(17533,'Seifart, Dr. Ulf / Seifart, Dr. Carola',576,'2022-05-13');
+INSERT INTO Couples VALUES(17533,'Seifart, Dr. Ulf / Seifart, Dr. Carola',576,'2025-04-12');
 INSERT INTO Couples VALUES(17534,'Lüsse, Christoph / Lüsse, Sabine',1115,'2022-05-13');
 INSERT INTO Couples VALUES(17536,'Döpfer, Thomas / Kück-Jorkowski, Claudia',3298,'2022-05-13');
 INSERT INTO Couples VALUES(17539,'Cimander, Edgar / Cimander, Helga',569,'2022-05-13');
 INSERT INTO Couples VALUES(17540,'Assenmacher, Dieter / Flerus, Iris',1147,'2022-05-13');
 INSERT INTO Couples VALUES(17541,'Schönfeld, Harald / Diel, Sabine',1056,'2022-05-13');
 INSERT INTO Couples VALUES(17542,'Marschall, Dr. Michael / Marschall, Monika',302,'2022-05-13');
-INSERT INTO Couples VALUES(17543,'Bruch, Dr. Christian / Trapp, Jutta',2391,'2022-05-13');
+INSERT INTO Couples VALUES(17543,'Bruch, Dr. Christian / Trapp, Jutta',2391,'2025-04-13');
 INSERT INTO Couples VALUES(17544,'Faatz, Dr. Martin / Faatz, Yvonne',306,'2022-05-13');
 INSERT INTO Couples VALUES(17545,'Jablonka, Reinhold / Jablonka, Claudia',1954,'2022-05-13');
 INSERT INTO Couples VALUES(17546,'Reimann, Thomas / Reimann, Dr. Simone',3697,'2024-06-16');
@@ -7486,7 +7489,7 @@ INSERT INTO Couples VALUES(18026,'Günther, Maximilian / Barry, Noya',3129,'2022
 INSERT INTO Couples VALUES(18030,'Peterburgskiy, Nikita Nick / Maier, Victoria',3204,'2022-05-15');
 INSERT INTO Couples VALUES(18032,'Reichert, Emil / Mazakow, Adelina',352,'2022-05-14');
 INSERT INTO Couples VALUES(18034,'Faustmann, Gert / Kley, Alexandra',318,'2022-05-14');
-INSERT INTO Couples VALUES(18035,'Schmidt, Thomas / Schmidt, Susanne',625,'2022-05-14');
+INSERT INTO Couples VALUES(18035,'Schmidt, Thomas / Schmidt, Susanne',625,'2025-04-12');
 INSERT INTO Couples VALUES(18036,'Wolff, Jens / Wolff, Maike',401,'2023-04-15');
 INSERT INTO Couples VALUES(18037,'Funk, Gerhard / Funk, Marion',2353,'2023-04-15');
 INSERT INTO Couples VALUES(18038,'Steinke, Alexander / Bäumer, Birgit',280,'2022-05-14');
@@ -7498,16 +7501,16 @@ INSERT INTO Couples VALUES(18046,'Jacob, Stefan / Stiebritz, Margit',2581,'2023-
 INSERT INTO Couples VALUES(18048,'Bensch, Markus / Strauß, Bianca',3747,'2022-05-14');
 INSERT INTO Couples VALUES(18050,'Schulz, Christof Andreas / Wüpper, Ellen',3259,'2022-05-14');
 INSERT INTO Couples VALUES(18051,'Niedner, Dr. Sven / Haas, Sabine',475,'2022-05-14');
-INSERT INTO Couples VALUES(18052,'Konhäuser, Harald / Hesele, Anja',627,'2023-04-15');
+INSERT INTO Couples VALUES(18052,'Konhäuser, Harald / Hesele, Anja',627,'2025-04-12');
 INSERT INTO Couples VALUES(18053,'Ostertag, Vico / Lüllich, Sabine',142,'2022-05-14');
 INSERT INTO Couples VALUES(18055,'Luthardt, Oliver / Fischer, Petra',1242,'2022-05-14');
-INSERT INTO Couples VALUES(18056,'Weyer, Thomas / Weyer, Kerstin',3216,'2024-06-15');
+INSERT INTO Couples VALUES(18056,'Weyer, Thomas / Weyer, Kerstin',3216,'2025-04-12');
 INSERT INTO Couples VALUES(18057,'Martius, Rainer / Martius, Manuela',482,'2023-04-15');
 INSERT INTO Couples VALUES(18058,'Birndorfer, Peter / Pothfelder, Christina',298,'2023-04-15');
 INSERT INTO Couples VALUES(18059,'Isenecker, Stefan / Mongellaz, Diane',118,'2022-05-14');
 INSERT INTO Couples VALUES(18060,'Dähnert, Ingolf / Dähnert, Gabriele',2724,'2022-05-14');
 INSERT INTO Couples VALUES(18061,'Pfünder, Gerhard / Meißner, Dr. Elke',280,'2023-04-15');
-INSERT INTO Couples VALUES(18064,'Binder, Wolfgang / Schürrle, Gudrun',2831,'2023-04-15');
+INSERT INTO Couples VALUES(18064,'Binder, Wolfgang / Schürrle, Gudrun',2831,'2025-04-12');
 INSERT INTO Couples VALUES(18065,'Flimm, Dr. Jürgen / Flimm, Christine',2901,'2024-06-16');
 INSERT INTO Couples VALUES(18068,'Schlaich, Patrick / Schlaich, Michaela',2193,'2023-04-15');
 INSERT INTO Couples VALUES(18069,'Karau, Christian / Karau, Anette',475,'2022-05-15');
@@ -7520,7 +7523,7 @@ INSERT INTO Couples VALUES(18077,'Ledebuhr, Thomas / Pool, Ivonne',3491,'2022-05
 INSERT INTO Couples VALUES(18078,'Bachmaier, Stefan / Bachmaier, Claudia',2353,'2023-04-15');
 INSERT INTO Couples VALUES(18079,'Kalkuhl, Dr. Arno / Kalkuhl, Andrea',13,'2023-04-15');
 INSERT INTO Couples VALUES(18080,'Stepuhn, Horst / Stepuhn, Kerstin',915,'2022-05-14');
-INSERT INTO Couples VALUES(18081,'Helmer, Peter / Helmer, Karola',1665,'2024-06-15');
+INSERT INTO Couples VALUES(18081,'Helmer, Peter / Helmer, Karola',1665,'2025-04-12');
 INSERT INTO Couples VALUES(18082,'Degen, Horst / Degen, Karin',2193,'2022-05-14');
 INSERT INTO Couples VALUES(18083,'Schultheiß, Stefan / Schultheiß, Silke',551,'2022-05-14');
 INSERT INTO Couples VALUES(18084,'Evertz, Siegfried / Heyner, Yvonne',298,'2022-05-14');
@@ -7530,7 +7533,7 @@ INSERT INTO Couples VALUES(18087,'Griesbaum, Rainer / Griesbaum, Andrea',68,'202
 INSERT INTO Couples VALUES(18088,'Nolte, Rainer / Nolte, Sabine',961,'2022-05-15');
 INSERT INTO Couples VALUES(18089,'Franke, Stephan / Woltmann, Kerstin',705,'2023-04-15');
 INSERT INTO Couples VALUES(18090,'Lindecke, Ulrich / Schulze, Manuela',344,'2023-04-15');
-INSERT INTO Couples VALUES(18091,'Riedel, Jens / Riedel, Silka',3315,'2023-04-15');
+INSERT INTO Couples VALUES(18091,'Riedel, Jens / Riedel, Silka',3315,'2025-04-12');
 INSERT INTO Couples VALUES(18092,'Holzner, Peter / Holzner, Ulrike',142,'2022-05-14');
 INSERT INTO Couples VALUES(18093,'Oberender, Jörg / Oberender, Jacqueline',2330,'2023-04-15');
 INSERT INTO Couples VALUES(18094,'Ries, Harald / Ries, Antonie',13,'2022-05-15');
@@ -7544,9 +7547,9 @@ INSERT INTO Couples VALUES(18104,'Schäfer, Markus / Schäfer, Gabriele',1147,'2
 INSERT INTO Couples VALUES(18105,'Heissig, Benno / Heissig, Marion',1010,'2022-05-14');
 INSERT INTO Couples VALUES(18106,'Pape, Dirk / Glosemeyer, Martina',1604,'2022-05-14');
 INSERT INTO Couples VALUES(18107,'Pohlen, Norbert / Pohlen, Martina',1395,'2022-05-14');
-INSERT INTO Couples VALUES(18108,'Schiller, Dr. Christoph / Schiller, Sabine',1054,'2022-05-14');
+INSERT INTO Couples VALUES(18108,'Schiller, Dr. Christoph / Schiller, Sabine',1054,'2025-04-12');
 INSERT INTO Couples VALUES(18109,'Winter, Armin / Winter, Angela',127,'2022-05-14');
-INSERT INTO Couples VALUES(18110,'Deisenroth, Michael / Köhn, Karen-Kristina',480,'2023-04-15');
+INSERT INTO Couples VALUES(18110,'Deisenroth, Michael / Köhn, Karen-Kristina',480,'2025-04-12');
 INSERT INTO Couples VALUES(18111,'Lünebach, Wolfgang / Lünebach, Rita',299,'2022-05-14');
 INSERT INTO Couples VALUES(18112,'Müller, Detlev / Nahry, Claudia',1079,'2022-05-14');
 INSERT INTO Couples VALUES(18113,'Schlage, Heiko / Schlage, Bettina',3732,'2022-05-14');
@@ -7826,7 +7829,7 @@ INSERT INTO Couples VALUES(18987,'Friedrich, Wolfgang / Friedrich, Gisela',2353,
 INSERT INTO Couples VALUES(18990,'Zinnendorf, Detlef / Meinecke, Kerstin',3557,'2024-06-15');
 INSERT INTO Couples VALUES(18991,'Bockhahn, Erich / Bockhahn, Ingrid',1656,'2024-06-15');
 INSERT INTO Couples VALUES(18993,'Berger, Dieter / Kruschniewitz, Barbara',1096,'2024-06-15');
-INSERT INTO Couples VALUES(18996,'Racké, Dr. Kurt / Racké, Claudia',1147,'2024-06-15');
+INSERT INTO Couples VALUES(18996,'Racké, Dr. Kurt / Racké, Claudia',1147,'2025-04-12');
 INSERT INTO Couples VALUES(18997,'Lehnert, Norbert / Lehnert, Sylvia',2750,'2024-06-15');
 INSERT INTO Couples VALUES(18998,'Faber, Helmut / Schlossarek, Eva',413,'2024-06-15');
 INSERT INTO Couples VALUES(19000,'Baars, Uwe / Baars, Birgit',705,'2024-06-16');
@@ -7838,12 +7841,12 @@ INSERT INTO Couples VALUES(19023,'Gerdes, Reelf / Oltmann-Waßmann, Anne',3639,'
 INSERT INTO Couples VALUES(19025,'Quentin, Eckhard / Müller-Quentin, Kirsten',2257,'2024-06-16');
 INSERT INTO Couples VALUES(19026,'Drescher, Michael / Kirsch, Sylke',688,'2024-06-15');
 INSERT INTO Couples VALUES(19027,'Janik, Robert / Friese, Elena',316,'2024-06-16');
-INSERT INTO Couples VALUES(19029,'Bäumer, Jürgen / Weinberger, Irina',4107,'2024-06-15');
-INSERT INTO Couples VALUES(19030,'Enk, Günter / Enk, Annette',1054,'2024-06-15');
+INSERT INTO Couples VALUES(19029,'Bäumer, Jürgen / Weinberger, Irina',4107,'2025-04-12');
+INSERT INTO Couples VALUES(19030,'Enk, Günter / Enk, Annette',1054,'2025-04-12');
 INSERT INTO Couples VALUES(19031,'Vornkahl, Uwe / Mangeng, Bettina',4237,'2024-06-15');
 INSERT INTO Couples VALUES(19032,'Nagel, Ulf / Nagel, Doris',757,'2024-06-15');
 INSERT INTO Couples VALUES(19034,'Gullotta, Giuseppe / Palermo, Maria',821,'2024-06-15');
-INSERT INTO Couples VALUES(19035,'Göpfert, Thomas / Göpfert, Katja',3732,'2024-06-15');
+INSERT INTO Couples VALUES(19035,'Göpfert, Thomas / Göpfert, Katja',3732,'2025-04-12');
 INSERT INTO Couples VALUES(19036,'Benthien, Thomas / Benthien, Anke',384,'2024-06-15');
 INSERT INTO Couples VALUES(19038,'Franz, Andreas / Franz, Petra',384,'2024-06-15');
 INSERT INTO Couples VALUES(19040,'Schwarz, Michael / Schröder, Elisabeth',3259,'2024-06-15');
@@ -7869,7 +7872,7 @@ INSERT INTO Couples VALUES(19121,'Boskugel, Ennio Lovis / Jensen, Mieke',655,'20
 INSERT INTO Couples VALUES(19125,'Schellhove, Michael / Schellhove, Anika',944,'2024-06-16');
 INSERT INTO Couples VALUES(19130,'Beck, Jan / Beck, Alexandra',944,'2024-06-16');
 INSERT INTO Couples VALUES(19134,'Ley, Marcus / Ley, Bianca Yvonne',393,'2024-06-16');
-INSERT INTO Couples VALUES(19180,'Polak, Thomas / Simon-Polak, Ute',551,'2024-06-16');
+INSERT INTO Couples VALUES(19180,'Polak, Thomas / Simon-Polak, Ute',551,'2025-04-12');
 INSERT INTO Couples VALUES(19181,'Roßberg, Jörg / Roßberg, Edith',3315,'2024-06-16');
 INSERT INTO Couples VALUES(19182,'Klemke, Tobias / Klemke, Ute',1711,'2024-06-16');
 INSERT INTO Couples VALUES(19185,'Geser, Marcel / Geser, Taisija',3727,'2024-06-16');
@@ -8159,7 +8162,7 @@ INSERT INTO Couples VALUES(20610,'Dabergott, Erik / Geller, Nicole',2831,'2023-0
 INSERT INTO Couples VALUES(20611,'Kaiser, Phillip / Kaiser, Lisa',3557,'2023-04-15');
 INSERT INTO Couples VALUES(20612,'Strauß, Calvin / Wichmann, Katharina',313,'2023-04-15');
 INSERT INTO Couples VALUES(20617,'Bruder, Mantas / Shamis, Anastasiya',2415,'2023-04-15');
-INSERT INTO Couples VALUES(20620,'Reumann, Andreas / Reumann, Annette',1213,'2023-04-15');
+INSERT INTO Couples VALUES(20620,'Reumann, Andreas / Reumann, Annette',1213,'2025-04-12');
 INSERT INTO Couples VALUES(20623,'Hümpfer, Harald / Hümpfer, Ursula',306,'2023-04-15');
 INSERT INTO Couples VALUES(20632,'Bechtold, Klaus / Wießmann, Jutta',449,'2023-04-15');
 INSERT INTO Couples VALUES(20640,'Kuchenbecker, Dieter / Kuchenbecker, Annette',111,'2023-04-15');
@@ -8179,7 +8182,7 @@ INSERT INTO Couples VALUES(20678,'Rose, Maik / Rose, Katrin',1709,'2023-04-15');
 INSERT INTO Couples VALUES(20680,'Wiedemann, Norbert / Wiedemann, Petra',1769,'2023-04-15');
 INSERT INTO Couples VALUES(20682,'Lödermann, Gerhard / Frey, Dr. Anne',298,'2023-04-15');
 INSERT INTO Couples VALUES(20683,'Rother, Alois / Prause, Dagmar',281,'2023-04-15');
-INSERT INTO Couples VALUES(20685,'Tlauka, Michael / Tlauka, Rosalie',1054,'2023-04-15');
+INSERT INTO Couples VALUES(20685,'Tlauka, Michael / Tlauka, Rosalie',1054,'2025-04-12');
 INSERT INTO Couples VALUES(20687,'Jäger, Ernst / Kelle, Karmen',96,'2023-04-15');
 INSERT INTO Couples VALUES(20688,'Müller, Ingolf / Müller, Anke',1656,'2023-04-15');
 INSERT INTO Couples VALUES(20691,'Joppa, Dietmar / Röthling, Cornelia',1979,'2023-04-15');
@@ -8434,6 +8437,42 @@ INSERT INTO Couples VALUES(29035,'Thomas Schlehufer / Tatjana Lusin',1604,'2025-
 INSERT INTO Couples VALUES(29048,'Flavio Gaziano / Nadine Mudrik',480,'2025-03-16');
 INSERT INTO Couples VALUES(29061,'Peter Brenzinger / Beatrix Regine Sarantidis',1954,'2025-03-16');
 INSERT INTO Couples VALUES(29064,'Stanislaw Scharnagel / Helena Scharnagel',2193,'2025-03-16');
+INSERT INTO Couples VALUES(29066,'Wehr, Heiko / Wehr, Dr. Sabine',37,'2025-04-12');
+INSERT INTO Couples VALUES(29067,'Holzhäuser, Jörg / Holzhäuser, Petra',555,'2025-04-12');
+INSERT INTO Couples VALUES(29070,'Abel, Dietmar / Abel, Annette',2391,'2025-04-12');
+INSERT INTO Couples VALUES(29072,'Selbach, Dr. Elmar / Becker, Martina',986,'2025-04-12');
+INSERT INTO Couples VALUES(29073,'Stegemann, Björn-Peter / Stegemann, Maud',1624,'2025-04-12');
+INSERT INTO Couples VALUES(29075,'Hanek, Martin / Firle, Karin',929,'2025-04-12');
+INSERT INTO Couples VALUES(29079,'Kreilein, Heinrich / Kreilein, Marion',690,'2025-04-12');
+INSERT INTO Couples VALUES(29081,'Zschernig, Curt / Zschernig, Gabriele',627,'2025-04-12');
+INSERT INTO Couples VALUES(29084,'Blauth, Karl-Joachim / Blauth, Elke',986,'2025-04-12');
+INSERT INTO Couples VALUES(29085,'Siemer, Andreas / Plößer, Mechthild',449,'2025-04-12');
+INSERT INTO Couples VALUES(29086,'Käsler, Lothar / Käsler, Renate',906,'2025-04-12');
+INSERT INTO Couples VALUES(29092,'Spanka, Ulrich / Spanka, Jekaterina',1694,'2025-04-12');
+INSERT INTO Couples VALUES(29096,'Petermann, Olaf / Groh-Petermann, Romy',1624,'2025-04-12');
+INSERT INTO Couples VALUES(29103,'Richter, Matthias / Richter, Yvonne',3298,'2025-04-12');
+INSERT INTO Couples VALUES(29107,'Rieper, Dr. Torge / Rieper, Dr. Gisela',2358,'2025-04-12');
+INSERT INTO Couples VALUES(29109,'Hoffmann, Peter / Lachetta, Therese',625,'2025-04-13');
+INSERT INTO Couples VALUES(29112,'Buresch, Hubert / Buresch, Sabine',282,'2025-04-12');
+INSERT INTO Couples VALUES(29116,'Hefter, Uwe / Hefter, Carola',531,'2025-04-12');
+INSERT INTO Couples VALUES(29120,'Weidmann, Thomas Achim / Metz-Weidmann, Christiane',3298,'2025-04-12');
+INSERT INTO Couples VALUES(29122,'Küppers, Harald / Küppers, Heike',480,'2025-04-12');
+INSERT INTO Couples VALUES(29123,'Block, Robert / Schmidt, Barbara',625,'2025-04-12');
+INSERT INTO Couples VALUES(29124,'Vidovic, Mario / Vidovic, Annabelle',574,'2025-04-12');
+INSERT INTO Couples VALUES(29125,'Borengässer, Franz Gerhard / Borengässer, Friederike',627,'2025-04-12');
+INSERT INTO Couples VALUES(29126,'Reinhart, Markus / Reinhart, Wiebke',273,'2025-04-12');
+INSERT INTO Couples VALUES(29127,'Golz, Peter / Mikesic-Golz, Christiane',609,'2025-04-12');
+INSERT INTO Couples VALUES(29128,'Brasche, Ulrich / Ratke, Laura',3298,'2025-04-12');
+INSERT INTO Couples VALUES(29257,'Notte, Franz / Notte, Eva-Martina',4112,'2025-04-12');
+INSERT INTO Couples VALUES(29258,'Ansorge, Peter / Weinzierl, Michaela',263,'2025-04-12');
+INSERT INTO Couples VALUES(29259,'Schmidt, Gerd / Schmidt, Brigitte',1395,'2025-04-12');
+INSERT INTO Couples VALUES(29260,'Werle, Dr. Ulrich / Werle, Brigitte',2631,'2025-04-12');
+INSERT INTO Couples VALUES(29270,'Schillinger, Axel / Schevtschiek, Michaela',68,'2025-04-13');
+INSERT INTO Couples VALUES(29271,'Müllenberg, Matthias / Schöffler, Martina',1170,'2025-04-13');
+INSERT INTO Couples VALUES(29660,'Erny, Richard / Erny, Michaela',2631,'2025-04-13');
+INSERT INTO Couples VALUES(29661,'Kohler, Jürgen / Kohler, Petra',118,'2025-04-13');
+INSERT INTO Couples VALUES(29664,'Rätzel, Oliver / Leschinger-Usner, Christiane',449,'2025-04-13');
+INSERT INTO Couples VALUES(29665,'Krams, Guido / Krams, Doris',627,'2025-04-13');
 CREATE TABLE IF NOT EXISTS "BaseCouples" (
 	"ID"	INTEGER NOT NULL UNIQUE,
 	"HeFirstname"	TEXT,
@@ -10734,7 +10773,7 @@ INSERT INTO BaseCouples VALUES(253662,'Dietmar','Joppa','Cornelia','Röthling',1
 INSERT INTO BaseCouples VALUES(253663,'Stefan','Koschel','Christine','Schmidt-Koschel',3089,'2023-04-15');
 INSERT INTO BaseCouples VALUES(253664,'Jürgen','Stahnke','Patricia','Stahnke',338,'2023-04-15');
 DELETE FROM sqlite_sequence;
-INSERT INTO sqlite_sequence VALUES('Couples',29064);
+INSERT INTO sqlite_sequence VALUES('Couples',29732);
 INSERT INTO sqlite_sequence VALUES('BaseCouples',253664);
 CREATE VIEW "Fed_Club_Count" as
     SELECT Abbrev,count(Clubs.Name)
