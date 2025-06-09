@@ -2094,6 +2094,9 @@ INSERT INTO Clubs VALUES(4422,'TSA d. Borkheider SV 90','Borkheide',6);
 INSERT INTO Clubs VALUES(4423,'Idiomadanza, Regensburg','Regensburg',1);
 INSERT INTO Clubs VALUES(4424,'TSA d. TV 1903 Sterbfritz, Sinntal','Sinntal',5);
 INSERT INTO Clubs VALUES(4425,'TSA d. SV Niederwetz, Schöffengrund','Schöffengrund',5);
+INSERT INTO Clubs VALUES(4426,'Life-G.-Dancers, Dachau','Dachau',1);
+INSERT INTO Clubs VALUES(4427,'Tanzverein Rosenstadt Sangerhausen','Sangerhausen',16);
+INSERT INTO Clubs VALUES(4428,'TSA d. TSV Elbenberg 05','Naumburg-Elbenberg',5);
 CREATE TABLE IF NOT EXISTS "Couples" (
     "ID" INTEGER NOT NULL UNIQUE,
     "String" TEXT NOT NULL UNIQUE,
