@@ -7,13 +7,13 @@ CREATE TABLE IF NOT EXISTS "Federations" (
     "URL" TEXT UNIQUE,
     PRIMARY KEY("ID")
 );
-INSERT INTO Federations VALUES(1,'Bayern',NULL,NULL);
-INSERT INTO Federations VALUES(2,'Berlin',NULL,NULL);
-INSERT INTO Federations VALUES(3,'Bremen',NULL,NULL);
-INSERT INTO Federations VALUES(4,'HATV',NULL,NULL);
-INSERT INTO Federations VALUES(5,'HTV',NULL,NULL);
-INSERT INTO Federations VALUES(6,'LTV Br',NULL,NULL);
-INSERT INTO Federations VALUES(7,'NTV',NULL,NULL);
+INSERT INTO Federations VALUES(1,'Bayern','Landes-Tanzsportverband Bayern e. V.','https://ltvb.de/');
+INSERT INTO Federations VALUES(2,'Berlin','Landestanzsportverband Berlin e. V.','https://www.ltv-berlin.de/');
+INSERT INTO Federations VALUES(3,'Bremen','Landestanzsportverband Bremen e. V.','https://ltvbremen.de/');
+INSERT INTO Federations VALUES(4,'HATV','Hamburger Tanzsportverbandes e. V.','https://www.hatv.de/');
+INSERT INTO Federations VALUES(5,'HTV','Hessischer Tanzsportverband HTV e. V.','https://htv.de/');
+INSERT INTO Federations VALUES(6,'LTV Br','Landestanzsportverband Brandenburg e. V.','https://tanzsport-brandenburg.de/');
+INSERT INTO Federations VALUES(7,'NTV','Niedersächsischer Tanzsportverband e. V.','https://www.ntv-tanzsport.de/');
 INSERT INTO Federations VALUES(8,'SLT',NULL,NULL);
 INSERT INTO Federations VALUES(9,'TBW',NULL,NULL);
 INSERT INTO Federations VALUES(10,'TMV',NULL,NULL);
